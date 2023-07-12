@@ -1,0 +1,124 @@
+/* using buttons */
+
+body{
+    background-color: aqua;
+}
+
+.container{
+    text-align: center;
+    margin: 50px;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+
+.operator{
+    background-color: rgb(167, 198, 158);
+}
+input{
+        border-radius: 10px;
+        font-size: 23px;
+        margin-bottom: 20px;
+        height: 9vh;
+        text-align: right;
+}
+input::placeholder{
+    font-size: 45px;
+    color:black;
+}
+
+.calculator{
+    margin: auto;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: rgb(109, 89, 89);
+}
+
+.calculator button{
+    border-radius: 10px;
+    padding: 20px;
+   margin-left:10px;
+   font-family: sans-serif;
+   font-size:20px;
+}
+
+button:hover{
+    background-color: rgb(0, 255, 42);
+}
+.calculator .sol {
+    padding-left: 58px;
+    padding-right: 58px;
+    background-color: blue;
+    font-size:20px;
+    color: white;
+ }
+ .calculator .dev {
+    padding-left: 20px;
+    padding-right: 24px;
+ }
+ .calculator .rev {
+    padding-right: 16px;
+    padding-left: 16px;
+ }
+
+
+
+
+ /* USING INPUT FOR BUTTON */
+
+/* 
+body{
+    background-color: aqua;
+}
+
+.container{
+    text-align: center;
+    margin: 50px;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+.display{
+    text-align: right;
+}
+
+.container  .display{
+    border-radius: 10px;
+    font-size: 23px;
+    margin-bottom: 20px;
+    height: 9vh;
+}
+
+.calculator{
+    margin: auto;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: rgb(109, 89, 89);
+}
+.calculator .upper{
+    border-radius: 10px;
+    font: 1em arial;
+}
+.calculator .dev {
+   padding-right: 14px;
+}
+.calculator .sub {
+    padding: 0px 13px 0px 10px;
+}
+.calculator .rev {
+    padding-right: 8px;
+ }
+ .calculator .def {
+    padding: 0px 13px 0px 10px;
+ }
+ .calculator .sol {
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+  */
